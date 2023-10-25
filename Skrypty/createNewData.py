@@ -10,12 +10,21 @@ def readData(fileName):
 def createDate(data):
     x = sympy.symbols('x')
     y = sympy.symbols('y')
-    with open(r'C:\Users\dkmak\Desktop\Genetyczne\TinyGP-Java-master\problem.dat', 'w') as file:
-        file.write('1 100 -5 5 2000' + '\n')
-        for i in range(-1000, 1000):
-            x_value = i / 10.0
-            result = sympy.sympify(data).subs(x, x_value).subs(y, x_value)
-            file.write(str(x_value) + '   ' + str(result) + '\n')
+    with open(r'C:\Users\dkmak\OneDrive\Pulpit\Generyczne\TinyGP-Java-master\problem.dat', 'w') as file:
+        if 'y' in data:
+            file.write('2 100 -5 5 10000' + '\n')
+            for i in range(0, 100):
+                for j in range(0,100):
+                #[-10, 10], [0,100], [-1, 1], [-1000, 1000]
+                    x_value = i
+                    result = sympy.sympify(data).subs(x, x_value).subs(y, j)
+                    file.write(str(x_value) + '   '+ str(j)+'   ' + str(result) + '\n')
+        else:
+            file.write('1 100 -5 5 1000' + '\n')
+            for i in range(-314, 314):
+                x_value = i / 100
+                result = sympy.sympify(data).subs(x, x_value)
+                file.write(str(x_value) + '   ' + str(result) + '\n')
 
 
 if __name__ == '__main__':
