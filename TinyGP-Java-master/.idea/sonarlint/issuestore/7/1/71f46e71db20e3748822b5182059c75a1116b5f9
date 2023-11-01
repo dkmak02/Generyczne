@@ -1,139 +1,140 @@
 
 ^
-java:S6208E"CMerge the previous cases into this one using comma-separated label.(§§É£ıÿÿÿÿ
+java:S62087"CMerge the previous cases into this one using comma-separated label.(§§É£ıÿÿÿÿ
 _
-java:S6208—"CMerge the previous cases into this one using comma-separated label.(§§É£ıÿÿÿÿ
+java:S6208„"CMerge the previous cases into this one using comma-separated label.(§§É£ıÿÿÿÿ
 _
-java:S6208¾"CMerge the previous cases into this one using comma-separated label.(§§É£ıÿÿÿÿ
-k	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼˜±úÿÿÿÿ
-l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ôëÆúÿÿÿÿ
-g	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ğó¯
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”æÛ
+java:S6208Ú"CMerge the previous cases into this one using comma-separated label.(§§É£ıÿÿÿÿ
+k	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼˜±úÿÿÿÿ
+k	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ôëÆúÿÿÿÿ
+g	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ğó¯
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¶éúÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”æÛ
 0
 java:S1220""Move this file to a named package.
 h
-java:S3008"MRename this field "PC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼»äëüÿÿÿÿ
+java:S3008"MRename this field "PC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼»äëüÿÿÿÿ
 g
-java:S3008"RRename this field "avg_len" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö»½D
+java:S3008"RRename this field "avg_len" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö»½D
 [
-java:S1659"@Declare "SUB" and all following declarations on a separate line.(¤§î÷üÿÿÿÿ
+java:S1659
+"@Declare "SUB" and all following declarations on a separate line.(ïºøùÿÿÿÿ
 <
-java:S1659"'Declare "maxrandom" on a separate line.(÷Ù˜c
+java:S1659"'Declare "maxrandom" on a separate line.(÷Ù˜c
 _
-java:S1659"IDeclare "fitnesscases" and all following declarations on a separate line.(îÍê´
+java:S1659"IDeclare "fitnesscases" and all following declarations on a separate line.(îÍê´
 ;
-java:S1659"%Declare "favgpop" on a separate line.(Ù¬—ê
+java:S1659"%Declare "favgpop" on a separate line.(Ù¬—ê
 _
-java:S1659!"DDeclare "POPSIZE" and all following declarations on a separate line.(¼˜Ø¶ùÿÿÿÿ
-B
-java:S1659'",Declare "CROSSOVER_PROB" on a separate line.(½ü•­
+java:S1659"DDeclare "POPSIZE" and all following declarations on a separate line.(”ŠÆ‡şÿÿÿÿ
+G
+java:S1659",Declare "CROSSOVER_PROB" on a separate line.(Ø•¢øùÿÿÿÿ
 K
-java:S2696+"6Make the enclosing method "static" or remove this set.(›£ºf
-7	java:S131.""Add a default case to this switch.(¤‡Ñì
+java:S2696"6Make the enclosing method "static" or remove this set.(›£ºf
+7	java:S131""Add a default case to this switch.(¤‡Ñì
 e
-java:S17640"JCorrect one of the identical sub-expressions on both sides of operator "-"(å¡İ÷ûÿÿÿÿ
+java:S1764!"JCorrect one of the identical sub-expressions on both sides of operator "-"(»İšùÿÿÿÿ
 6
-java:S16593"!Declare "den" on a separate line.(«á½e
-<	java:S131A""Add a default case to this switch.(ÆˆÑ˜ûÿÿÿÿ
-h	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øğ²ÿÿÿÿÿ
+java:S1659%"!Declare "den" on a separate line.(«á½e
+<	java:S1313""Add a default case to this switch.(ÆˆÑ˜ûÿÿÿÿ
+h	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ë¦ªÿÿÿÿÿ
 :
-java:S1659M"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
+java:S1659@"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
 L
-java:S2696V"6Make the enclosing method "static" or remove this set.(‚´˜
+java:S2696F"6Make the enclosing method "static" or remove this set.(‚´˜
 Q
-java:S2696W"6Make the enclosing method "static" or remove this set.(¡¦Äçÿÿÿÿÿ
+java:S2696G"6Make the enclosing method "static" or remove this set.(¡¦Äçÿÿÿÿÿ
 Q
-java:S2696X"6Make the enclosing method "static" or remove this set.(¡òˆ…şÿÿÿÿ
+java:S2696H"6Make the enclosing method "static" or remove this set.(¡òˆ…şÿÿÿÿ
 Q
-java:S2696Y"6Make the enclosing method "static" or remove this set.(êÃĞëüÿÿÿÿ
+java:S2696I"6Make the enclosing method "static" or remove this set.(êÃĞëüÿÿÿÿ
 L
-java:S2696Z"6Make the enclosing method "static" or remove this set.(îØ”÷
+java:S2696J"6Make the enclosing method "static" or remove this set.(îØ”÷
 Q
-java:S2696["6Make the enclosing method "static" or remove this set.(Õö™øÿÿÿÿ
-N	java:S106]"9Replace this use of System.out or System.err by a logger.(Õ²äÈ
+java:S2696K"6Make the enclosing method "static" or remove this set.(Õö™øÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(Õ²äÈ
 L
-java:S2696c"6Make the enclosing method "static" or remove this set.(î®Õ¾
-S	java:S106i"9Replace this use of System.out or System.err by a logger.(’÷á¶øÿÿÿÿ
-N	java:S106m"9Replace this use of System.out or System.err by a logger.(¡ğãù
-h	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼˜±úÿÿÿÿ
+java:S2696S"6Make the enclosing method "static" or remove this set.(î®Õ¾
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(’÷á¶øÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(¡ğãù
+h	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼˜±úÿÿÿÿ
 R
-java:S1854v"7Remove this useless assignment to local variable "len".(µğğÅúÿÿÿÿ
+java:S1854d"7Remove this useless assignment to local variable "len".(µğğÅúÿÿÿÿ
 7
-java:S1659s"!Declare "len" on a separate line.(É§÷æ
+java:S1659a"!Declare "len" on a separate line.(É§÷æ
 6
-java:S1659t"!Declare "fit" on a separate line.(ÒÃ¸t
+java:S1659b"!Declare "fit" on a separate line.(ÒÃ¸t
 >
-java:S1481s"(Remove this unused "len" local variable.(É§÷æ
+java:S1481a"(Remove this unused "len" local variable.(É§÷æ
 t
-java:S3012y"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Í¨Äâüÿÿÿÿ
+java:S3012g"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Í¨Äâüÿÿÿÿ
 Q
-java:S2696y"6Make the enclosing method "static" or remove this set.(Í¨Äâüÿÿÿÿ
+java:S2696g"6Make the enclosing method "static" or remove this set.(Í¨Äâüÿÿÿÿ
 L
-java:S2696z"6Make the enclosing method "static" or remove this set.(ïË’¹
+java:S2696h"6Make the enclosing method "static" or remove this set.(ïË’¹
 L
-java:S2696{"6Make the enclosing method "static" or remove this set.(¦ëúÈ
-8	java:S131“""Add a default case to this switch.(ªÆÔì
-d	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÏıÜ
+java:S2696i"6Make the enclosing method "static" or remove this set.(¦ëúÈ
+8	java:S131€""Add a default case to this switch.(ªÆÔì
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÏıÜ
 <
-java:S1659£" Declare "a2" on a separate line.(¤êöÆûÿÿÿÿ
-T	java:S106¦"9Replace this use of System.out or System.err by a logger.(ºÁÄ˜øÿÿÿÿ
-O	java:S106¨"9Replace this use of System.out or System.err by a logger.(ªÚü†
-=	java:S131«""Add a default case to this switch.(ËÖ£‹ÿÿÿÿÿ
-T	java:S106¬"9Replace this use of System.out or System.err by a logger.(¬âÂ¥úÿÿÿÿ
-T	java:S106®"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ
-T	java:S106°"9Replace this use of System.out or System.err by a logger.(´«ÉÈşÿÿÿÿ
-T	java:S106²"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ
-O	java:S106´"9Replace this use of System.out or System.err by a logger.(û ‡Ó
-T	java:S106¶"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ
-O	java:S106¸"9Replace this use of System.out or System.err by a logger.(™ş¸À
-O	java:S106º"9Replace this use of System.out or System.err by a logger.(¾ƒÎ
-O	java:S106¾"9Replace this use of System.out or System.err by a logger.(¨üËÂ
-i	java:S100Ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ıÿÿÿÿ
-i	java:S100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ªœæÿÿÿÿÿ
-S
-java:S1117Ô"7Rename "pop" which hides the field declared at line 14.(ï«˜ûÿÿÿÿ
->
-java:S1659à""Declare "best" on a separate line.(êñ‡¥şÿÿÿÿ
-M
-java:S2696â"6Make the enclosing method "static" or remove this set.(ù¯Ú
-M
-java:S2696ã"6Make the enclosing method "static" or remove this set.(¯©é
-M
-java:S2696ç"6Make the enclosing method "static" or remove this set.(ÇùÕí
-L
-java:S2696ê"6Make the enclosing method "static" or remove this set.(•ŸÛF
+java:S1659" Declare "a2" on a separate line.(¤êöÆûÿÿÿÿ
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(ºÁÄ˜øÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(ªÚü†
+=	java:S131˜""Add a default case to this switch.(ËÖ£‹ÿÿÿÿÿ
+O	java:S106š"9Replace this use of System.out or System.err by a logger.(ÛÃí
+T	java:S106œ"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ÛÃí
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(ÛÃí
+T	java:S106¦"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(ÛÃí
+O	java:S106«"9Replace this use of System.out or System.err by a logger.(¾ƒÎ
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(¨üËÂ
+d	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔæŠ™
+<
+java:S1659³" Declare "a2" on a separate line.(¤êöÆûÿÿÿÿ
+=	java:S131½""Add a default case to this switch.(ËÖ£‹ÿÿÿÿÿ
+i	java:S100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ıÿÿÿÿ
+i	java:S100í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ªœæÿÿÿÿÿ
 R
-java:S2696í"6Make the enclosing method "static" or remove this set.(¡‚àÎûÿÿÿÿ
+java:S1117î"6Rename "pop" which hides the field declared at line 8.(ï«˜ûÿÿÿÿ
 M
-java:S2696î"6Make the enclosing method "static" or remove this set.(‚°Ü¡
-O	java:S106ï"9Replace this use of System.out or System.err by a logger.(ØÌ” 
-N	java:S106ó"9Replace this use of System.out or System.err by a logger.(°•Ş
-O	java:S106ô"9Replace this use of System.out or System.err by a logger.(ÚÂâ
+java:S2696ı"6Make the enclosing method "static" or remove this set.(ÌÅİã
+M
+java:S2696ş"6Make the enclosing method "static" or remove this set.(¯©é
+L
+java:S2696‡"6Make the enclosing method "static" or remove this set.(•ŸÛF
+R
+java:S2696‹"6Make the enclosing method "static" or remove this set.(¡‚àÎûÿÿÿÿ
+M
+java:S2696Œ"6Make the enclosing method "static" or remove this set.(œêì
+T	java:S106"9Replace this use of System.out or System.err by a logger.(—ÖÊ§øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°•Ş
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(ÚÂâ
 U
-java:S1659ø">Declare "i" and all following declarations on a separate line.(æ³ß¡
-i	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰òºşÿÿÿÿ
+java:S1659—">Declare "i" and all following declarations on a separate line.(æ³ß¡
+i	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰òºşÿÿÿÿ
 U
-java:S1659†">Declare "i" and all following declarations on a separate line.(ÙœË»
+java:S1659¥">Declare "i" and all following declarations on a separate line.(ÙœË»
 _
-java:S1659”"CDeclare "xo1end" and all following declarations on a separate line.(¯Ã¥òøÿÿÿÿ
+java:S1659³"CDeclare "xo1end" and all following declarations on a separate line.(¯Ã¥òøÿÿÿÿ
 ;
-java:S1659¯"Declare "i" on a separate line.(šŸÖ¸ùÿÿÿÿ
-8	java:S131º""Add a default case to this switch.(¥÷Šñ
-d	java:S100È"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾’şì
-O	java:S106É"9Replace this use of System.out or System.err by a logger.(ƒªè
-O	java:S106Ê"9Replace this use of System.out or System.err by a logger.(ÚÇ®·
+java:S1659Ë"Declare "i" on a separate line.(šŸÖ¸ùÿÿÿÿ
+8	java:S131Ö""Add a default case to this switch.(¥÷Šñ
 8
-java:S3010×"!Remove this assignment of "seed".(îóÿ
+java:S3010ì"!Remove this assignment of "seed".(îóÿ
 5
-java:S3010Ü"Remove this assignment of "x".(˜‘şŞ
+java:S3010ñ"Remove this assignment of "x".(˜‘şŞ
+C
+java:S1172ê",Remove this unused method parameter "fname".(Œ‰äü
+d	java:S100ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾’şì
+O	java:S106û"9Replace this use of System.out or System.err by a logger.(ƒªè
+O	java:S106ü"9Replace this use of System.out or System.err by a logger.(ÚÇ®·
+p
+java:S3776†"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(†¿ğ8€º‰İ¸1
 Z
-java:S1659á"CDeclare "indivs" and all following declarations on a separate line.(°Š¨Å
-O	java:S106è"9Replace this use of System.out or System.err by a logger.(–½§Á
-T	java:S106ü"9Replace this use of System.out or System.err by a logger.(ÂàúØûÿÿÿÿ
-U
-java:S2130…"9Use "Integer.parseInt" for this string-to-int conversion.(ºÍîıÿÿÿÿ
-8
-java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+java:S1659‡"CDeclare "indivs" and all following declarations on a separate line.(°Š¨Å
+O	java:S106–"9Replace this use of System.out or System.err by a logger.(–½§Á
+[	java:S106Ù"9Replace this use of System.out or System.err by a logger.(ÂàúØûÿÿÿÿ8‹º‰İ¸1
 J
-java:S1128
-"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜
+java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜
