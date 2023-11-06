@@ -24,8 +24,8 @@ def create2DPlot(x, value, new_value, name, label1= "Orginal", label2= "TinyGp")
     y_data = [float(y_f) for y_f in value]
     new_y_data = [float(n_y_f) for n_y_f in new_value]
     plt.figure()
-    plt.plot(x_data, y_data, marker='o', color='b', label=label1)
-    plt.plot(x_data, new_y_data, marker='o', color='r', label=label2)
+    plt.plot(x_data, y_data , color='b', label=label1)
+    plt.plot(x_data, new_y_data, color='r', label=label2)
     plt.xlabel('X-axis Label')
     plt.ylabel('Y-axis Label')
     plt.title('Line Plot')
@@ -75,7 +75,6 @@ fun_info[0] = re.sub(r'\s+', ' ', fun_info[0])
 nameTosave = f"{fun_info[0]} {fun_info[1]}.png"
 if has_y:
     y = [sublist[3] for sublist in orginal]
-    # new_data = newDataY(x, new_data)
     fun = []
     with open("data.txt", 'r') as line:
         fun.append(line.readline().replace('^', '**'))

@@ -7,7 +7,7 @@ public class tiny_gp {
     double[] fitness;
     char[][] pop;
     static Random rd = new Random();
-    static final int ADD = 110, SUB = 111, MUL = 112, DIV = 113, FSET_START = ADD, FSET_END = DIV;
+    static final int ADD = 110, SUB = 111, MUL = 112, SIN = 113,COS = 114, DIV = 115, FSET_START = ADD, FSET_END = DIV;
     static double[] x = new double[FSET_START];
     static double minrandom, maxrandom;
     static char[] program;
@@ -40,6 +40,10 @@ public class tiny_gp {
                 else
                     return num / den;
             }
+            case SIN:
+                return Math.sin(run());
+            case COS:
+                return Math.cos(run());
         }
         return 0.0;
     }
@@ -52,6 +56,8 @@ public class tiny_gp {
             case ADD:
             case SUB:
             case MUL:
+            case SIN:
+            case COS:
             case DIV:
                 return traverse(buffer, traverse(buffer, ++buffercount));
         }
@@ -59,7 +65,7 @@ public class tiny_gp {
     }
 
     void setup_fitness() {
-        String fname = "C:\\Users\\dkmak\\OneDrive\\Pulpit\\Generyczne\\TinyGP-Java-master\\problem.dat";
+        String fname = "..\\TinyGP-Java-master\\problem.dat";
         try {
             int i, j;
             String line;
@@ -129,6 +135,8 @@ public class tiny_gp {
                 case ADD:
                 case SUB:
                 case MUL:
+                case SIN:
+                case COS:
                 case DIV:
                     buffer[pos] = prim;
                     one_child = grow(buffer, pos + 1, max, depth - 1);
@@ -170,11 +178,22 @@ public class tiny_gp {
                 a1 = print_indiv(buffer, ++buffercounter);
                 System.out.print(" / ");
                 break;
+            case SIN:
+                System.out.print("sin(");
+                a1 = print_indiv(buffer, ++buffercounter);
+                System.out.print(")");
+                return a1;
+            case COS:
+                System.out.print("cos(");
+                a1 = print_indiv(buffer, ++buffercounter);
+                System.out.print(")");
+                return a1;
         }
         a2 = print_indiv(buffer, a1);
         System.out.print(")");
         return a2;
     }
+
     int print_indiv(char[] buffer, int buffercounter, FileWriter output) {
         int a1 = 0, a2;
         try {
@@ -207,6 +226,16 @@ public class tiny_gp {
                     a1 = print_indiv(buffer, ++buffercounter, output);
                     output.write(" / ");
                     break;
+                case SIN:
+                    output.write("sin(");
+                    a1 = print_indiv(buffer, ++buffercounter, output);
+                    output.write(")");
+                    return a1;
+                case COS:
+                    output.write("cos(");
+                    a1 = print_indiv(buffer, ++buffercounter, output);
+                    output.write(")");
+                    return a1;
             }
             a2 = print_indiv(buffer, a1, output);
             output.write(")");
@@ -343,6 +372,8 @@ public class tiny_gp {
                         case ADD:
                         case SUB:
                         case MUL:
+                        case SIN:
+                        case COS:
                         case DIV:
                             parentcopy[mutsite] = (char) (rd.nextInt(FSET_END - FSET_START + 1) + FSET_START);
                     }
@@ -402,7 +433,7 @@ public class tiny_gp {
         }
 
         while (gen < GENERATIONS) {
-            if (fbestpop > -3) {
+            if (fbestpop > 1) {
                 System.out.print("PROBLEM SOLVED\n");
                 // Write the final generation data to the file
                 stats(fitness, pop, gen);
