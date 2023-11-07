@@ -7,7 +7,7 @@ public class tiny_gp {
     double[] fitness;
     char[][] pop;
     static Random rd = new Random();
-    static final int ADD = 110, SUB = 111, MUL = 112, SIN = 113,COS = 114, DIV = 115, FSET_START = ADD, FSET_END = DIV;
+    static final int ADD = 110, SUB = 111, MUL = 112, SIN = 114,COS = 115, DIV = 113, FSET_START = ADD, FSET_END = COS;
     static double[] x = new double[FSET_START];
     static double minrandom, maxrandom;
     static char[] program;
@@ -56,9 +56,9 @@ public class tiny_gp {
             case ADD:
             case SUB:
             case MUL:
+            case DIV:
             case SIN:
             case COS:
-            case DIV:
                 return traverse(buffer, traverse(buffer, ++buffercount));
         }
         return 0;
@@ -135,9 +135,9 @@ public class tiny_gp {
                 case ADD:
                 case SUB:
                 case MUL:
+                case DIV:
                 case SIN:
                 case COS:
-                case DIV:
                     buffer[pos] = prim;
                     one_child = grow(buffer, pos + 1, max, depth - 1);
                     if (one_child < 0)
@@ -372,9 +372,9 @@ public class tiny_gp {
                         case ADD:
                         case SUB:
                         case MUL:
+                        case DIV:
                         case SIN:
                         case COS:
-                        case DIV:
                             parentcopy[mutsite] = (char) (rd.nextInt(FSET_END - FSET_START + 1) + FSET_START);
                     }
             }
@@ -479,8 +479,6 @@ public class tiny_gp {
 
             gen++;
         }
-
-        // Close the generation data writer when done
         try {
             generationDataWriter.close();
         } catch (IOException e) {

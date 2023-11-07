@@ -18,7 +18,14 @@ def newDataNoY(x_values,new_data):
         for i in x_values:
             new_data.append(sympy.sympify(best).subs(x, i))
     return new_data
-
+def symplify():
+    best = ''
+    with open(bestPath, 'r') as file:
+        best = file.read()
+        best = best.replace(',', '.')
+        best = sympy.sympify(best)
+    with open(bestPath, 'w') as file:
+        file.write(str(best))
 def create2DPlot(x, value, new_value, name, label1= "Orginal", label2= "TinyGp"):
     x_data = [float(x_f) for x_f in x]
     y_data = [float(y_f) for y_f in value]
@@ -64,7 +71,7 @@ def orginal_data():
         samples = np.sqrt(int(samples))
     return data, constains_y, int(samples)
 
-
+symplify()
 orginal, has_y, samples = orginal_data()
 x = [sublist[0] for sublist in orginal]
 y = []
