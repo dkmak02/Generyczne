@@ -105,4 +105,3 @@ with open(generationDataFile, 'r') as file:
         value.append(d[1])
         new_value.append(d[2].replace('\n',''))
     create2DPlot(x, value, new_value, nameTosave, "Avg", "Best")
-
